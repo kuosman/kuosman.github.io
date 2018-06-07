@@ -35,6 +35,7 @@ network={
         proto=RSN
         pairwise=CCMP
 }
+```
 
 ### Edit interfaces
 
