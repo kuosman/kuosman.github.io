@@ -4,7 +4,7 @@ title: Raspberry PI 3 WLAN
 subtitle: Setting up wlan
 gh-repo: kuosman/kuosman.github.io
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [raspberrypi]
 ---
 
 ## Remove power save mode
