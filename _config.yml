@@ -135,9 +135,15 @@ share-links-active:
 #  uri: "demo.wiki.pro"
 #  opt-out: true
 
-# --- Misc --- #
+# --- Comments --- #
+
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+# disqus: ""
+
+# To use Facebook Comments, fill in a Facebook App ID
+# fb_comment_id: ""
+
+# --- Misc --- #
 
 # Facebook App ID
 # fb_app_id: ""
