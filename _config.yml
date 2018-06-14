@@ -25,6 +25,7 @@ description: kuosman github page
 navbar-links:
   About Me: "aboutme"
   Resources:
+    - Vantaa places: "../vantaa"
     - Own food recipes: "https://omaruoka.fi"
   Author's home: "http://markokuosmanen.fi/"
 
