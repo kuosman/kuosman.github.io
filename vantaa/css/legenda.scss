@@ -1,0 +1,65 @@
+@import "variables";
+
+.legenda {
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+    z-index: 3000;
+    opacity: 0.9;
+    color: $darkGrayColor;
+    opacity: $opacity;
+
+    div.header {
+        padding:4px;
+        color:#ffffff;
+        background-color: $darkGrayColor;
+        font-weight:bold;
+        font-size:14px;
+    }
+
+    div.label_icon {
+        position:relative;
+        top:0;
+        left:2px;
+        width: 35px;
+        height: 45px;
+    }
+
+    &.grayscale {}
+
+    &.color1 {
+        background-color: #ffffff;
+    }
+
+    &.shadow {
+        box-shadow: 4px 4px 10px 4px #555555;
+    }
+
+    td {
+        white-space:nowrap;
+        font-size:14px;
+    }
+
+    div.asunnot__kiinnostaa__label, div.asunnot__kiinnostaa__text {
+        color: $greenColor;
+    }
+
+    div.asunnot__katsottu__label, div.asunnot__katsottu__text {
+        color: $blueColor;
+    }
+
+    div.asunnot__ei_katsottu__label, div.asunnot__ei_katsottu__text {
+        color: $redColor;
+    }
+
+    div.label {
+        width: 48px;
+    }
+    div.text {
+        color: $darkGrayColor;
+    }
+
+    span.small {
+        font-size: 0.8em;
+    }
+}

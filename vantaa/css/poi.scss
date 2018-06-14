@@ -1,0 +1,41 @@
+@import "variables";
+
+div.popup_poi {
+    color: $white;
+    width: 300px;
+
+    a, a.leaflet-popup-close-button {
+        color: $white;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    h3 {
+        i {
+            font-size: 32px;
+        }
+
+        span.name {
+            margin-left: 6px;
+            position:relative;
+            bottom:4px;
+        }
+    }
+
+    div.label {
+        float: left;
+        width: 70px;
+        font-weight: bold;
+    }
+
+    div.text {
+        float: left;
+        width: 160px;
+    }
+
+    div.clear {
+        clear:both;
+    }
+}

@@ -1,0 +1,34 @@
+/* Normal colors */
+/* Dark colors */
+div.popup_junaasemat {
+  color: #ffffff;
+  width: 300px; }
+  div.popup_junaasemat a, div.popup_junaasemat a.leaflet-popup-close-button {
+    color: #ffffff; }
+    div.popup_junaasemat a:hover, div.popup_junaasemat a.leaflet-popup-close-button:hover {
+      color: #ffffff; }
+  div.popup_junaasemat h3 i {
+    font-size: 32px; }
+  div.popup_junaasemat h3 span.name {
+    margin-left: 6px;
+    position: relative;
+    bottom: 4px; }
+  div.popup_junaasemat div.label {
+    float: left;
+    width: 70px;
+    font-weight: bold; }
+  div.popup_junaasemat div.text {
+    float: left;
+    width: 160px; }
+    div.popup_junaasemat div.text ul {
+      margin-top: 0;
+      margin-bottom: 0; }
+  div.popup_junaasemat div.clear {
+    clear: both; }
+  div.popup_junaasemat div.leaflet-popup-content-wrapper {
+    background-color: #a3a3a3;
+    border: 1px solid #8a8a8a; }
+  div.popup_junaasemat div.leaflet-popup-tip-container div.leaflet-popup-tip {
+    background-color: #a3a3a3; }
+
+/*# sourceMappingURL=junaasemat.css.map */

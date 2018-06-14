@@ -1,0 +1,57 @@
+@import "variables";
+
+
+div.popup_junaasemat {
+	color: $white;
+	width: 300px;
+
+	a, a.leaflet-popup-close-button {
+		color: $white;
+
+		&:hover {
+			color: $white;
+		}
+	}
+
+	h3 {
+		i {
+			font-size: 32px;
+		}
+
+		span.name {
+			margin-left: 6px;
+			position:relative;
+			bottom:4px;
+		}
+	}
+
+	div.label {
+		float: left;
+		width: 70px;
+		font-weight: bold;
+	}
+
+	div.text {
+		float: left;
+		width: 160px;
+
+		ul {
+			margin-top:0;
+			margin-bottom:0;
+		}
+	}
+
+	div.clear {
+		clear:both;
+	}
+
+	div.leaflet-popup-content-wrapper {
+		background-color: $grayColor;
+		border: 1px solid $darkGrayColor;
+	}
+	div.leaflet-popup-tip-container {
+		div.leaflet-popup-tip {
+			background-color: $grayColor;
+		}
+	}
+}

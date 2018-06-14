@@ -1,0 +1,20 @@
+/* Normal colors */
+$greenColor: #72af26;
+$blueColor: #38a9dc;
+$redColor: #d53e2a;
+$purpleColor: #d051b8;
+$purpleDarkColor: #5A386A;
+$grayColor: #a3a3a3;
+$orangeColor: #F69730;
+$white: #ffffff;
+$black: #000000;
+$opacity: 0.8;
+
+/* Dark colors */
+$darkGreenColor: darken($greenColor, 10%);
+$darkBlueColor: darken($blueColor, 10%);
+$darkRedColor: darken($redColor, 10%);
+$darkPurpleColor: darken($purpleColor, 10%);
+$darkPurpleDarkColor: darken($purpleDarkColor, 10%);
+$darkGrayColor: darken($grayColor, 10%);
+$darkOrangeColor: darken($orangeColor, 10%);

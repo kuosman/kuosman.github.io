@@ -1,0 +1,67 @@
+@import "variables";
+
+div.popup_urheilu {
+	color: $white;
+	width: 300px;
+
+	a, a.leaflet-popup-close-button {
+		color: $white;
+
+		&:hover {
+			color: $white;
+		}
+	}
+
+	h3 {
+		i {
+			font-size: 32px;
+		}
+
+		span.name {
+			margin-left: 6px;
+			position:relative;
+			bottom:4px;
+		}
+	}
+
+	div.label {
+		float: left;
+		width: 70px;
+		font-weight: bold;
+	}
+
+	div.text {
+		float: left;
+		width: 160px;
+	}
+
+	div.clear {
+		clear:both;
+	}
+
+	&.kuntosali {
+		div.leaflet-popup-content-wrapper {
+			background-color: $purpleDarkColor;
+			border: 1px solid $darkPurpleDarkColor;
+		}
+		div.leaflet-popup-tip-container {
+			div.leaflet-popup-tip {
+				background-color: $purpleDarkColor;
+			}
+		}
+	}
+
+	&.uimaranta {
+		div.leaflet-popup-content-wrapper {
+			background-color: $blueColor;
+			border: 1px solid $darkBlueColor;
+		}
+		div.leaflet-popup-tip-container {
+			div.leaflet-popup-tip {
+				background-color: $darkBlueColor;
+			}
+		}
+	}
+}
+
+
