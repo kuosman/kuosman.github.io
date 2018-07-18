@@ -25,6 +25,7 @@ var colors = {
         'cadetblue',
         'lightgray'],
     _usedColorIndex: null,
+
     getColor: function(index){
         var me = this;
 
@@ -104,7 +105,7 @@ var poi = {
             lon:60.35118781161213,
             lat:25.07961237060216,
             name:'S-market Korson asema',
-            osoite: 'Metsolantie 2, 01450 Vantaa (Korso)',
+            osoite: 'Metsolantie 2, 01450 Vantaa',
             status: me._status.KAUPPA,
             description: 'S-market Korson asema'
         });
@@ -113,7 +114,7 @@ var poi = {
             lon:60.35030301279745,
             lat:25.079105469456124,
             name:'K-supermarket Korso',
-            osoite: 'Minkkikuja 4, 01450 Vantaa (Korso)',
+            osoite: 'Minkkikuja 4, 01450 Vantaa',
             status: me._status.KAUPPA,
             description: 'K-supermarket Korso'
         });
@@ -122,7 +123,7 @@ var poi = {
             lon:60.34871331340244,
             lat:25.075851768621302,
             name:'S-market Korso',
-            osoite: 'Maakotkantie 19, 01450 Vantaa (Korso)',
+            osoite: 'Maakotkantie 19, 01450 Vantaa',
             status: me._status.KAUPPA,
             description: 'S-market Korso'
         });
@@ -131,7 +132,7 @@ var poi = {
             lon:60.35485148833242,
             lat:25.04994328287751,
             name:'K-market Vierumäki',
-            osoite: 'Riskiläkuja 2 A, 01450 Vantaa (Korso)',
+            osoite: 'Riskiläkuja 2 A, 01450 Vantaa',
             status: me._status.KAUPPA,
             description: 'K-market Vierumäki'
         });
@@ -170,7 +171,10 @@ var poi = {
                 } else if(key === 'status') {
                     status = poi[key];
                 } else if(key === 'osoite') {
-                    markerContent.find('.' + key).html('<a href="https://www.google.fi/maps/dir//'+poi.lon + ',' + poi.lat +'" target="_blank">' + poi[key] + '</a>');
+                    markerContent.find('.' + key).html('<a href="'+ util.googleMaps.getRouteUrl({
+                        origin: '',
+                        destination: poi[key]
+                    }) +'" target="_blank">' + poi[key] + '</a>');
                 } else {
                     markerContent.find('.' + key).html(poi[key]);
                 }

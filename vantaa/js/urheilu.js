@@ -47,7 +47,7 @@ var urheilu = {
 			lat: 25.074732191,
 			url:'http://www.korsogym.fi/',
 			name:'KorsoGYM',
-			osoite: 'Maakotkantie 6, Vantaa (Korso)',
+			osoite: 'Maakotkantie 6, 01450 Vantaa',
 			status: me._status.KUNTOSALI,
 			description: ''
 		});
@@ -95,7 +95,12 @@ var urheilu = {
 			for(var key in urheilu) {
 				if(key === 'url') {
 					markerContent.find('.' + key).html('<a href="' + urheilu[key] +'" target="_blank">Avaa tiedot</a>');
-				}
+				} else if(key === 'osoite') {
+                    markerContent.find('.' + key).html('<a href="'+ util.googleMaps.getRouteUrl({
+                        origin: '',
+                        destination: urheilu[key]
+                    }) +'" target="_blank">' + urheilu[key] + '</a>');
+                }
 				else {
 					markerContent.find('.' + key).html(urheilu[key]);
 				}
