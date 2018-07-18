@@ -1,0 +1,13 @@
+$primaryColor: #5BA83A;
+$secondaryColor: #4B96CC;
+$lightTextColor: #FFFFFF;
+$darkTextColor: #000000;
+$borderRadius: 10px;
+$borderWidth: 1px;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

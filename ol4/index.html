@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+        <title>OpenLayers 4</title>
+        <link href="css/ol.css" rel="stylesheet" type="text/css"></link>
+        <style type="text/css">
+          html, body, .map {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="map" class="map"></div>
+
+        <script type="text/javascript" src="js/ol.js"></script>
+        <script type="text/javascript" src="js/proj4.js"></script>
+        <script type="text/javascript">
+          var map;
+
+            //Proj4 is required because OPenLayer 3 does not support EPSG:3067
+            //Config from http://epsg.io/3067
+            proj4.defs("EPSG:3067","+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs");
+
+            //Map limits
+            var extent = [50199.4814, 6582464.0358, 761274.6247, 7799839.8902];
+            ol.proj.get('EPSG:3067').setExtent(extent);
+
+            var view = new ol.View({
+                center: [237488.841283306537662, 6709459.248768231831491], //Turun linna
+                projection: 'EPSG:3067',
+                zoom: 11,
+                enableRotation: false
+            });
+
+
+            map = new ol.Map({
+                layers: [
+                    new ol.layer.Tile({
+                        title: 'Taustakartta',
+                        type: 'base',
+                        visible: true,
+                        source: new ol.source.TileWMS({
+                            url: 'http://tiles.kartat.kapsi.fi/taustakartta',
+                            params: {'LAYERS': 'taustakartta', 'TILED': true},
+                            serverType: 'geoserver'
+                          })
+                    })
+                ],
+                target: 'map',
+                view: view,
+                logo: false
+            });
+
+            var geolocation = new ol.Geolocation({
+                projection: view.getProjection(),
+                tracking: true
+            });
+            geolocation.once('change:position', function() {
+                view.setCenter(geolocation.getPosition());
+            });
+
+        </script>
+    </body>
+</html>

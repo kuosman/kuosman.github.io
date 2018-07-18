@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+        <title>Leaflet</title>
+        <link href="css/leaflet.css" rel="stylesheet" type="text/css"></link>
+        <style type="text/css">
+          html, body, .map {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="map" class="map"></div>
+        <script type="text/javascript" src="js/leaflet.js"></script>
+        <script type="text/javascript" src="js/proj4.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/proj4leaflet/1.0.1/proj4leaflet.min.js"></script>
+        <script type="text/javascript">
+          var map;
+
+
+            map = L.map('map');
+            var layer = new L.TileLayer('http://tiles.kartat.kapsi.fi/taustakartta/{z}/{x}/{y}.jpg', {
+                attribution: '<a href="http://kartat.kapsi.fi" target="_blank">kartat.kapsi.fi</a> | MML/2014',
+                maxZoom: 18,
+                subdomains: ['tile1', 'tile2']
+            });
+            map.addLayer(layer);
+            map.setView(new L.LatLng(60.198544, 25.055694), 12);
+
+            ASWIA = {};
+            ASWIA.map = map;
+            ASWIA._marker;
+            ASWIA.addMarker = function(lon,lat,markerImageString,width,height) {
+                if(ASWIA._marker) {
+                    ASWIA.map.removeLayer(ASWIA._marker);
+                }
+                var myIcon = L.icon({iconUrl:'data:image/png;base64,'+markerImageString, iconSize: [width, height]});
+                ASWIA._marker = L.marker([lat,lon], {icon: myIcon}).addTo(ASWIA.map);
+            }
+
+        </script>
+    </body>
+</html>

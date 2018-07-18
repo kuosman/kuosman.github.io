@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+
+<div class="container">
+</div>
+
+<script src="../common/button.js"></script>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+	jQuery(document).ready(function(){
+		var button = new buttonModule('Button 2', 'button2', function(){alert('This is button 2');});
+		var container = jQuery('.container');
+		container.html(button.getElement());		
+	});
+</script>
+</body>
+</html>

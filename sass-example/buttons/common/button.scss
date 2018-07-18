@@ -1,0 +1,12 @@
+.dim__button {
+	padding: 10px;
+	background-color: $primaryColor;
+	color: $lightTextColor;
+	@include border-radius($borderRadius);
+	border: $borderWidth solid lighten( $primaryColor, 10% );
+	cursor: pointer;
+
+	&:hover {
+		background-color: darken( $primaryColor, 10% );
+	}
+}
