@@ -146,6 +146,10 @@ If you are installed slack from Windows App Store then remove it and install it 
         .c-deprecated_button--link {
             color: #7ac143 !important;
         }
+
+        .c-message--highlight, .c-message--highlight_yellow_bg {
+            background-color: #2D313A !important;
+        }
         `
 
        // Insert a style tag into the wrapper view
