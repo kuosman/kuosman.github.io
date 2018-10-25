@@ -30,6 +30,7 @@ update_config=1
 
 network={
         ssid="YOUR WLAN SID NAME"
+        scan_ssid=1
         psk="WLAN PASSWORD"
         key_mgmt=WPA-PSK
         proto=RSN
