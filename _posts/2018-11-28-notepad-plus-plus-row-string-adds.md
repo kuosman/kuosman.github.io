@@ -12,7 +12,7 @@ tags: [notepad_plus_plus, beginning_of_lines, end_of_lines]
 * Press `CTRL` + `H` to bring up the *Find/Replace Dialog*.
 * Choose the Regular expression option near the bottom of the dialog.
 
-To add a word, such as * `test`, at the beginning of each line:
+To add a word, such as `test`, at the beginning of each line:
 * Type `^` in the Find what textbox
 * Type `test` in the Replace with textbox
 * Place cursor in the first line of the file to ensure all lines are affected
