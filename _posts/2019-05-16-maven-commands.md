@@ -14,5 +14,6 @@ tags: [maven]
 | ```mvn clean install``` | build installation packet and run tests |
 | ```mvn clean install -P <profile>``` | build installation packet using wanted profile and run tests |
 | ```mvn clean install -DskipTests``` | build installation packets and not run tests |
+| ```mvn clean install -T 2C``` | build installation packets with 2 cores  and run tests |
 | ```mvn -N versions:set -DnewVersion=<version number>``` | updating version numbers |
 | ```mvn build-helper:parse-version versions:set -DnewVersion=\${parsedVersion.majorVersion}.\${parsedVersion.minorVersion}.\${parsedVersion.nextIncrementalVersion} versions:commit``` | automate updating version numbers (next increment version) |
