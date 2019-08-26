@@ -13,16 +13,16 @@ tags: [foss4g, foss4g2019]
 
 ### Interactive web maps in the cloud with HERE XYZ (monday 09:00 - 13:00)
 
-XYZ Hub
-XYZ Studio
-XYZ Viewer
-XYZ MapsJS
-GeoJSON.tools
-HERE CLI
-Documentation
+* XYZ Hub
+* XYZ Studio
+* XYZ Viewer
+* XYZ MapsJS
+* GeoJSON.tools
+* HERE CLI
+* Documentation
 
-<http://developer.here.com/events/foss4g19>
-<https://xyz.here.com>
+* <http://developer.here.com/events/foss4g19>
+* <https://xyz.here.com>
 
 #### Exercixes
 
