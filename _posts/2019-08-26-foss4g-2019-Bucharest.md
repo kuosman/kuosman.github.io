@@ -19,11 +19,10 @@ tags: [foss4g, foss4g2019]
 * XYZ MapsJS
 * GeoJSON.tools
 * HERE CLI
-* Documentation
-
-* <http://developer.here.com/events/foss4g19>
-* <https://xyz.here.com>
-* <https://here.xyz>
+* Documentation:
+    * <http://developer.here.com/events/foss4g19>
+    * <https://xyz.here.com>
+    * <https://here.xyz>
 
 ##### QGIS plugin
 
@@ -31,7 +30,7 @@ XYZ Hub connector
 
 ##### Exercises
 
-###### Published map
+###### Publish map
 * Register and sign-in <http://developer.here.com/events/foss4g19> & <https://xyz.here.com>
 * Create published map --> <https://xyz.here.com/viewer/?project_id=9d778514-c844-478c-a0b1-77242ba0da3b>
 
