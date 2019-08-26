@@ -11,7 +11,7 @@ tags: [foss4g, foss4g2019]
 
 ## Workshops
 
-### Interactive web maps in the cloud with HERE XYZ (monday 09:00 - 13:00)
+### Interactive web maps in the cloud with HERE XYZ (monday 26.08.2017 09:00 - 13:00)
 
 * XYZ Hub
 * XYZ Studio
@@ -84,5 +84,7 @@ here xyz upload -f .\content.json
 * <https://developer.here.com/>
 * <http://heremaps.github.io/>
 
-### Oskari made easy (monday 14:00 - 18:00)
+### Oskari made easy (monday 26.8.2019 14:00 - 18:00)
+
+* <https://github.com/oskariorg/oskari-docs/blob/master/md/documentation/examples/FOSS4G_2019/workshop.md>
 
