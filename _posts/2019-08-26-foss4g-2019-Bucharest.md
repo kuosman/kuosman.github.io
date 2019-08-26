@@ -23,6 +23,11 @@ tags: [foss4g, foss4g2019]
 
 * <http://developer.here.com/events/foss4g19>
 * <https://xyz.here.com>
+* <https://here.xyz>
+
+### QGIS plugin
+
+XYZ Hub connector
 
 #### Exercixes
 
@@ -33,6 +38,41 @@ tags: [foss4g, foss4g2019]
 Iframe code:
 ```
 <iframe src="https://xyz.here.com/viewer/?project_id=9d778514-c844-478c-a0b1-77242ba0da3b" frameborder="0"></iframe>
+```
+
+##### Install Here CLI npm package and use it
+
+* <https://developer.here.com/tutorials>
+* <https://developer.here.com/tutorials/install-here-cli/>
+* <https://developer.here.com/tutorials/using-the-xyz-cli>
+
+```
+# Install
+npm install -g @here/cli
+
+# Check version
+here -V
+
+# Configure
+here configure
+
+# Check app layers
+here xyz -list
+
+# Check layer data
+here xyz show <layer_id>
+here xyz show hWAZJ1Ga
+
+# Get layer data in GeoJSON format
+here xyz show hWAZJ1Ga --raw
+
+
+# Get layer data in GeoJSON format and save it to file
+here xyz show hWAZJ1Ga --raw > content.json
+
+# Upload geojson to app
+here xyz upload -f .\content.json
+
 ```
 
 #### Links
