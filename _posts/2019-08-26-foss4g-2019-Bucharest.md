@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: FOSS4G 2019
