@@ -89,3 +89,7 @@ mvn jetty:run -DconfigId=release
 * <https://docs.geoserver.org/stable/en/developer/quickstart/maven.html>
 * <https://docs.geoserver.org/stable/en/developer/quickstart/intellij.html>
 * <https://docs.geoserver.org/latest/en/developer/programming-guide/ows-services/implementing.html>
+
+### Other stuff
+
+* REST example: [WorkspaceController.java](https://github.com/geoserver/geoserver/blob/master/src/restconfig/src/main/java/org/geoserver/rest/catalog/WorkspaceController.java)
