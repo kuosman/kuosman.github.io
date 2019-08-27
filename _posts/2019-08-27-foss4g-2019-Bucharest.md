@@ -93,3 +93,5 @@ mvn jetty:run -DconfigId=release
 ### Other stuff
 
 * REST example: [WorkspaceController.java](https://github.com/geoserver/geoserver/blob/master/src/restconfig/src/main/java/org/geoserver/rest/catalog/WorkspaceController.java)
+* Montly bug stomp, last friday of the month <http://blog.geoserver.org/2017/04/27/geoserver-monthly-bug-stomp/>
+* Community modules
