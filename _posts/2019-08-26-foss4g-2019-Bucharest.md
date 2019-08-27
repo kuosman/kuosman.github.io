@@ -1,17 +1,15 @@
 ---
 layout: post
-title: FOSS4G 2019
-subtitle: Bucharest
-gh-repo: kuosman/kuosman.github.io
+title: FOSS4G 2019 Bucharest
+subtitle: 26.09.2019
+gh-repo: ku.osman/kuosman.github.io
 gh-badge: [star, fork, follow]
 tags: [foss4g, foss4g2019]
 ---
 
-# FOSS4G 2019 Bucharest
+# Workshops
 
-## Workshops
-
-#### Interactive web maps in the cloud with HERE XYZ (monday 26.08.2017 09:00 - 13:00)
+## Interactive web maps in the cloud with HERE XYZ (monday 26.08.2017 09:00 - 13:00)
 
 * XYZ Hub
 * XYZ Studio
@@ -24,13 +22,13 @@ tags: [foss4g, foss4g2019]
     * <https://xyz.here.com>
     * <https://here.xyz>
 
-##### QGIS plugin
+### QGIS plugin
 
 XYZ Hub connector
 
-##### Exercises
+### Exercises
 
-###### Publish map
+#### Publish map
 * Register and sign-in <http://developer.here.com/events/foss4g19> & <https://xyz.here.com>
 * Create published map --> <https://xyz.here.com/viewer/?project_id=9d778514-c844-478c-a0b1-77242ba0da3b>
 
@@ -39,7 +37,7 @@ Iframe code:
 <iframe src="https://xyz.here.com/viewer/?project_id=9d778514-c844-478c-a0b1-77242ba0da3b" frameborder="0"></iframe>
 ```
 
-###### Install Here CLI npm package and use it
+#### Install Here CLI npm package and use it
 
 * <https://developer.here.com/tutorials>
 * <https://developer.here.com/tutorials/install-here-cli/>
@@ -74,7 +72,7 @@ here xyz upload -f .\content.json
 
 ```
 
-##### Links
+### Links
 
 * <https://www.harp.gl/>
 * <https://github.com/heremaps>
@@ -83,7 +81,6 @@ here xyz upload -f .\content.json
 * <https://developer.here.com/>
 * <http://heremaps.github.io/>
 
-#### Oskari made easy (monday 26.8.2019 14:00 - 18:00)
+## Oskari made easy (monday 26.8.2019 14:00 - 18:00)
 
 * <https://github.com/oskariorg/oskari-docs/blob/master/md/documentation/examples/FOSS4G_2019/workshop.md>
-
