@@ -9,7 +9,7 @@ tags: [foss4g, foss4g2019]
 
 # Workshops
 
-## Interactive web maps in the cloud with HERE XYZ (monday 26.08.2017 09:00 - 13:00)
+## Interactive web maps in the cloud with HERE XYZ (monday 26.08.2019 09:00 - 13:00)
 
 * XYZ Hub
 * XYZ Studio
