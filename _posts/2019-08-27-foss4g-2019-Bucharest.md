@@ -13,6 +13,7 @@ tags: [foss4g, foss4g2019]
 
 ### Lecturers
 
+
 #### Jody Garnet
 
 jody.garnett@gmail.com
@@ -21,6 +22,7 @@ Open Source Projects
 * GeoTools
 * GeoServer
 * uDig
+
 
 #### Ian Turton
 
@@ -44,4 +46,4 @@ Do tutorials:
 * Query tutorial: <http://docs.geotools.org/latest/userguide/tutorial/filter/query.html>
 * Image tutorial: <http://docs.geotools.org/latest/userguide/tutorial/raster/image.html>
 * Coverage Processor tutorial: <http://docs.geotools.org/latest/userguide/tutorial/coverage/coverage.html>
-* Map style tutorial: http://docs.geotools.org/latest/userguide/tutorial/map/style.html
+* Map style tutorial: <http://docs.geotools.org/latest/userguide/tutorial/map/style.html>
