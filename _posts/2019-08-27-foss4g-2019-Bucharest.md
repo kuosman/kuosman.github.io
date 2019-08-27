@@ -42,7 +42,7 @@ Do tutorials:
 * Factory tutorial (not coded yet): <http://docs.geotools.org/latest/userguide/tutorial/factory.html>
 * Function tutorial (not coded yet): <http://docs.geotools.org/latest/userguide/tutorial/function.html>
 
-All tutorials can dawload this file <files/tutorial.zip>
+All tutorials can download this file [tutorial.zip](files/tutorial.zip)
 
 
 ## GeoServer developers workshop (tuesday 27.08.2019 14:00 - 18:00)
