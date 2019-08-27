@@ -3,7 +3,7 @@ layout: post
 title: QNAP Container station
 subtitle: some useful hints
 gh-repo: kuosman/kuosman.github.io
-gh-badge: [star, follow]
+gh-badge: [follow]
 tags: [qnap, containerstation]
 ---
 

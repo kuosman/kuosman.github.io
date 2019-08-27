@@ -2,8 +2,8 @@
 layout: post
 title: FOSS4G 2019 Bucharest
 subtitle: 26.09.2019
-gh-repo: ku.osman/kuosman.github.io
-gh-badge: [star, fork, follow]
+gh-repo: kuosman/kuosman.github.io
+gh-badge: [follow]
 tags: [foss4g, foss4g2019]
 ---
 

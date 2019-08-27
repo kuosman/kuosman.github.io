@@ -3,7 +3,7 @@ layout: post
 title: Git commit graphs
 subtitle:
 gh-repo: kuosman/kuosman.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [follow]
 tags: [slack, dark]
 ---
 

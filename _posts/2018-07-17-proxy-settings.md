@@ -3,7 +3,7 @@ layout: post
 title: Proxy settings
 subtitle: for different apps
 gh-repo: kuosman/kuosman.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [follow]
 tags: [proxy]
 ---
 

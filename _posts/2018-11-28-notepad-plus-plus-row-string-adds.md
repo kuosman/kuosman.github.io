@@ -3,7 +3,7 @@ layout: post
 title: Notepad++ add text beginning or end of lines
 subtitle:
 gh-repo: kuosman/kuosman.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [follow]
 tags: [notepad_plus_plus, beginning_of_lines, end_of_lines]
 ---
 

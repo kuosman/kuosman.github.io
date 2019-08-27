@@ -3,7 +3,7 @@ layout: post
 title: Microsoft SQL Server Management Studio
 subtitle: Use dark theme
 gh-repo: kuosman/kuosman.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [follow]
 tags: [ssms, ssms2016, ssms17, dark]
 ---
 

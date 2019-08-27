@@ -3,7 +3,7 @@ layout: post
 title: Raspberry PI 3 WLAN
 subtitle: Setting up wlan
 gh-repo: kuosman/kuosman.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [follow]
 tags: [raspberrypi]
 ---
 
@@ -62,7 +62,7 @@ Add following rows end of file:
 allow-hotplug wlan0
 iface wlan0 inet static
 address 192.168.1.153 # your wanted IP
-netmask 255.255.255.0 
+netmask 255.255.255.0
 gateway 192.168.1.1 # router IP
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 iface default inet static

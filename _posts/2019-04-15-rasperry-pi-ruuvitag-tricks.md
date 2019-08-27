@@ -3,7 +3,7 @@ layout: post
 title: Raspberry PI 3 RuuviTag tricks
 subtitle: some useful commands
 gh-repo: kuosman/kuosman.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [follow]
 tags: [office]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: FOSS4G 2019 Bucharest
 subtitle: 27.08.2019
 gh-repo: kuosman/kuosman.github.io
-gh-badge: [star, fork, follow]
+gh-badge: [follow]
 tags: [foss4g, foss4g2019]
 ---
 
@@ -47,3 +47,5 @@ Do tutorials:
 * Image tutorial: <http://docs.geotools.org/latest/userguide/tutorial/raster/image.html>
 * Coverage Processor tutorial: <http://docs.geotools.org/latest/userguide/tutorial/coverage/coverage.html>
 * Map style tutorial: <http://docs.geotools.org/latest/userguide/tutorial/map/style.html>
+* Factory tutorial: <http://docs.geotools.org/latest/userguide/tutorial/factory.html>
+* Function tutorial: <http://docs.geotools.org/latest/userguide/tutorial/function.html>
