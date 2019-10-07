@@ -25,9 +25,9 @@ sudo nano /boot/config.txt
 
 Add one of these to the bottom:
 
-`display_rotate=0` Normal
-`display_rotate=1` 90 degrees
-`display_rotate=2` 180 degrees
+* `display_rotate=0` Normal
+* `display_rotate=1` 90 degrees
+* `display_rotate=2` 180 degrees
 
 Reboot.
 
@@ -60,4 +60,4 @@ Configuration file will `/home/pi/MagicMirror/config/config.js`.
 
 ## Created own module mm-digitraffic-trains
 
-See code: https://github.com/kuosman/mm-digitraffic-trains
+See code in [GitHub](https://github.com/kuosman/mm-digitraffic-trains)
