@@ -1,10 +1,10 @@
 ---
 layout: post
 title: MagicMirror 2
-subtitle: Rabperry PI 3
+subtitle: Raspberry PI 3
 gh-repo: kuosman/kuosman.github.io
 gh-badge: [follow]
-tags: [postgresql, sql]
+tags: [magicmirror, raspberrypi]
 ---
 
 # Installation
@@ -55,3 +55,9 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/maste
 ### Configuration
 
 Configuration file will `/home/pi/MagicMirror/config/config.js`.
+
+# Own modules
+
+## Created own module mm-digitraffic-trains
+
+See code: https://github.com/kuosman/mm-digitraffic-trains
