@@ -24,7 +24,7 @@ p {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #01579b;
+  color: #424242;
 }
 a {
   color: {{ site.link-col }};
@@ -132,7 +132,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: {{ site.hover-col }};
+  color: {{ site.navbar-hover-col }};
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -666,8 +666,8 @@ table tr td :last-child {
 /* --- Code blocks --- */
 
 pre {
-  font-size: 16px;
-  line-height: 1.5em;
+  font-size: 12px;
+  line-height: 1.4em;
 }
 pre code {
   white-space: pre;
@@ -678,7 +678,7 @@ pre.highlight, .highlight > pre, td.code pre {
   background-repeat: repeat;
   background-size: 3em 3em;
   background-position: 0px 10px;
-  border-left: 7px solid #444;
+  border-left: 7px solid #ccc;
 }
 code table, code table td, code table th, code table tbody, code table tr,
 td.gutter pre {
