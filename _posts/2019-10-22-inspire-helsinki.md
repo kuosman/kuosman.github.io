@@ -18,6 +18,7 @@ Petri Korpinen, Deputy for Director General, National Land Survey of Finland
 ### Welcome by the European Comission
 
 Michael Lutz, Joint Research Centre, European Comission
+
 Twitter: [@michaellutz](https://twitter.com/michellutz)
 
 ## Keynotes
@@ -25,12 +26,15 @@ Twitter: [@michaellutz](https://twitter.com/michellutz)
 ### Keynote by Bart De Lathouwer (President of OGC)
 
 Bart De Lathouwer, President of OGC
+
 bdelathouwer@ogc.org
+
 Twitter: [@BartDeLathouwer](https://twitter.com/BartDeLathouwer)
 
 ### Keynote by Hanna Niemi-Hugaerts (Director, IoT, Forum Virium)
 
 Hanna Niemi-Hugaerts, Director, IoT, Forum Virium
+
 Twitter: [@CitySDK_Hanna](https://twitter.com/CitySDK_Hanna)
 
 #### Links
