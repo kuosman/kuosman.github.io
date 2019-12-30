@@ -25,12 +25,6 @@ Before new harddisk installing or something like that, remember export all sessi
 * Right mouse click somewhere in sessions panel
 * Select: `Export all sessions to file`, select file location and name and press `Save`
 
-KORJAA ETTÄ PITI EXPORTATA KAIKKI SESSIOT
-Export following path in registry-editor:
-* `HKEY_USERS\<username>\Software\Mobatek\MobaXterm`
-
-Edit and replace: `HKEY_USERS\<username>` --> `HKEY_CURRENT_USER`
-
 ## Microsoft SQL Management Studio
 
 Copy following file:
