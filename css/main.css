@@ -698,6 +698,13 @@ td.code pre {
 td.gutter {
   padding-top: 3px;
 }
+code {
+    padding: 2px 4px;
+    font-size: 80%;
+    color: #555;
+    background-color: #eee;
+    border-radius: 4px;
+}
 
 /* --- Social media sharing section --- */
 
