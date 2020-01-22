@@ -29,3 +29,12 @@ and then install packages with command: `choco install <pkg>`
 List only installed packages and their id's.
 
 `choco list --local-only --idonly`
+
+### Only installed
+
+Not list `packages installed` and `Chocolatey` rows, run following in Windows PowerShell:
+`choco list --local-only --idonly | select-string "^(?!.*packages installed)" | select-string "^(?!.*Chocolatey)"`
+
+### Save installed list to text file
+
+`choco list --local-only --idonly | select-string "^(?!.*packages installed)" | select-string "^(?!.*Chocolatey)" > 2020-01-22_chocolatey_installed.txt`
