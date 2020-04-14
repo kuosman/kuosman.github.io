@@ -6,10 +6,10 @@ subtitle:
 
 ## Usefull programs for git
 
-* Cmder (https://cmder.net)
-* Cygwin (https://www.cygwin.com):
-  * Need install packages, for example: git*, ssh (openSSH), util-linux, curl, gitk, wget
-* Sourcetree (https://www.sourcetreeapp.com)
+* [Cmder](https://cmder.net)
+* [Cygwin](https://www.cygwin.com):
+  * Needs install packages, for example: git*, ssh (openSSH), util-linux, curl, gitk, wget
+* [Sourcetree](https://www.sourcetreeapp.com)
 
 ## Git settings
 

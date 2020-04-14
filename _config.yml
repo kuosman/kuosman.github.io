@@ -26,6 +26,7 @@ navbar-links:
   About Me: "aboutme"
   Coding:
     - Git: "../pages/coding/git"
+    - Maven: "../pages/coding/maven"
   Resources:
     - Vantaa places: "../pages/vantaa"
     - Own food recipes: "https://omaruoka.fi"
