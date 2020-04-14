@@ -25,11 +25,11 @@ description: kuosman github page
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Vantaa places: "../vantaa"
+    - Vantaa places: "../pages/vantaa"
     - Own food recipes: "https://omaruoka.fi"
-    - OpenLayers 4: "../ol4"
-    - Leaflet: "../leaflet"
-    - SASS example: "../sass-example"
+    - OpenLayers 4: "../pages/ol4"
+    - Leaflet: "../pages/leaflet"
+    - SASS example: "../pages/sass-example"
   Author's home: "http://markokuosmanen.fi/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
