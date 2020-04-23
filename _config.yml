@@ -27,15 +27,15 @@ navbar-links:
   Coding:
     - Git: "../pages/coding/git"
     - Maven: "../pages/coding/maven"
-    Legacy:
-      - Android: "../pages/coding/legacy/android"
-      - jQuery: "../pages/coding/legacy/jquery"
   Resources:
     - Vantaa places: "../pages/vantaa"
     - Own food recipes: "https://omaruoka.fi"
     - OpenLayers 4: "../pages/ol4"
     - Leaflet: "../pages/leaflet"
     - SASS example: "../pages/sass-example"
+  Legacy:
+    - Android: "../pages/legacy/android"
+    - jQuery: "../pages/legacy/jquery"
   Author's home: "http://markokuosmanen.fi/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
