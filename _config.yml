@@ -29,7 +29,7 @@ navbar-links:
     - Maven: "../pages/coding/maven"
     Legacy:
       - Android: "../pages/coding/legacy/android"
-      - jQuery: "../pages/coding/legacy/jQuery"
+      - jQuery: "../pages/coding/legacy/jquery"
   Resources:
     - Vantaa places: "../pages/vantaa"
     - Own food recipes: "https://omaruoka.fi"
