@@ -36,7 +36,7 @@ navbar-links:
   Legacy:
     - Android: "../pages/legacy/android"
     - jQuery: "../pages/legacy/jquery"
-  Author's home: "http://markokuosmanen.fi/"
+#  Author's home: "http://markokuosmanen.fi/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
