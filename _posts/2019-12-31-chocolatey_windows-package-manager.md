@@ -17,7 +17,7 @@ See more: [https://chocolatey.org](https://chocolatey.org)
 
 ## Install
 
-Find packages: [https://chocolatey.org/packages]|(https://chocolatey.org/packages)
+Find packages: [https://chocolatey.org/packages](https://chocolatey.org/packages)
 and then install packages with command: `choco install <pkg>`
 
 ## Upgrade

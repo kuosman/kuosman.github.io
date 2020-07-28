@@ -57,7 +57,7 @@ var urheilu = {
 		me._urheilu.push({
 			lon: 60.357620021,
 			lat: 25.090712575,
-			url:'http://www.vantaa.fi/vapaa-aika/liikunta/ulkoliikuntapaikat/uimarannat_ja_avantouinti',
+			url:'https://www.vantaa.fi/vapaa-aika/liikunta/ulkoliikuntapaikat/uimarannat_ja_avantouinti#Lepp%C3%A4korven%20maauimala',
 			name:'Leppäkorven maauimala',
 			osoite: 'Kontiotie 1, 01450 Vantaa',
 			status: me._status.UIMARANTA,
@@ -69,6 +69,15 @@ var urheilu = {
 			url:'https://www.tuusula.fi/sivu.tmpl?sivu_id=2439',
 			name:'Rusutjärven uimaranta',
 			osoite: 'Hiekkarannankuja 30, 04300 Tuusula',
+			status: me._status.UIMARANTA,
+			description: ''
+		});
+		me._urheilu.push({
+			lon: 60.312740022,
+			lat: 25.111549983,
+			url:'https://www.vantaa.fi/vapaa-aika/liikunta/ulkoliikuntapaikat/uimarannat_ja_avantouinti#Kuusij%C3%A4rven%20ulkoilualue',
+			name:'Kuusijärven ulkoilualue',
+			osoite: 'Kuusijärventie 3, 01260 Vantaa',
 			status: me._status.UIMARANTA,
 			description: ''
 		});
