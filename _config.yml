@@ -17,7 +17,7 @@ baseurl: ""
 title: Marko Kuosmanen
 
 # Short description of your site
-description: 
+description:
 
 # --- Navigation bar options --- #
 
@@ -33,6 +33,9 @@ navbar-links:
     - OpenLayers 4: "../pages/ol4"
     - Leaflet: "../pages/leaflet"
     - SASS example: "../pages/sass-example"
+  Other:
+    - Photography: "../pages/other/Kuvauspaikkoja"
+    - Lego's: "../pages/other/legot"
   Legacy:
     - Android: "../pages/legacy/android"
     - jQuery: "../pages/legacy/jquery"
