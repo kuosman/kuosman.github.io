@@ -6,6 +6,9 @@ subtitle:
 
 # Legot
 
+Meiltä tällä hetkellä löytyvät legot.
+Lista päivitetty 27.11.2020.
+
 | Kuva                                                                                                                      | Mallinumero | Nimi                                       |
 |---------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------------------------|
 | <img style="max-width:200px;max-height:200px;" alt="Hovinarri" src="../images/legot/7953.jpg">                            | 7953        | Castle - Hovinarri                         |
