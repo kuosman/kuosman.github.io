@@ -6,7 +6,7 @@ subtitle:
 
 # Kuvauspaikkoja
 
-* [ ] Vantaankoski: Kuninkaantie 28
+* [x] Vantaankoski: Kuninkaantie 28
 * [x] Keinukallio, Kerava
 * [x] Kuusijärvi, Vantaa
 * [x] Kulomäen täyttömäki, Vantaa
