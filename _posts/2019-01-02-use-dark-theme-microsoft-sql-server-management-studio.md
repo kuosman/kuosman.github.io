@@ -9,7 +9,7 @@ tags: [ssms, ssms2016, ssms17, ssms18, dark]
 
 ## How to use darks theme ?
 
-Although it’s not officially supported by Microsoft, the Dark theme is also available in both SSMS 2016 and the latest SSMS 17.
+Although it’s not officially supported by Microsoft, the Dark theme is also available in SSMS 2016, SSMS 17 and SSMS 18.
 
 Follow following steps to get dark theme:
 * Close Microsoft SQL Server Management Studio (the abbreviation used is SSMS in following text)
