@@ -12,7 +12,14 @@ div.popup_poi {
         }
     }
 
-    h3 {
+    div {
+		&.label, &.text {
+			color: $white;
+		}
+	}
+
+	h3 {
+		color: $white;
         i {
             font-size: 32px;
         }

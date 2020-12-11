@@ -62,12 +62,19 @@ var poi = {
         'kauppa': {
             icon: 'shopping-cart',
             prefix: 'fa',
-            markerColor: colors.getColor(),
+            markerColor: colors.getColor(0),
             name: 'Kauppa'
+        },
+        'kamera': {
+            icon: 'camera',
+            prefix: 'fa',
+            markerColor: colors.getColor(1),
+            name: 'Kamera'
         }
     },
     _status: {
-        KAUPPA: 'kauppa'
+        KAUPPA: 'kauppa',
+        KAMERA: 'kamera'
     },
     _poi: [],
     init: function(){
@@ -79,6 +86,9 @@ var poi = {
     },
     _addLegenda: function(){
         var me = this;
+        if (me._poi.length === 0) {
+            return;
+        }
         if(legenda && typeof legenda.lisaaSelite === 'function') {
             var poiCount = function(key) {
                 var pois = jQuery.grep(me._poi, function(poi, index) {
@@ -94,13 +104,16 @@ var poi = {
                 if(count > 1) {
                     countText = ' <span class="small">(' + count + ' kpl)</span>';
                 }
-                legenda.lisaaSelite({title: marker.name, icon: marker.prefix + '-' + marker.icon, color: marker.markerColor}, marker.name + countText);
+                if(count > 0) {
+                    legenda.lisaaSelite({title: marker.name, icon: marker.prefix + '-' + marker.icon, color: marker.markerColor}, marker.name + countText);
+                }
             }
         }
     },
     _addPoi: function(){
         var me = this;
 
+        /*
         me._poi.push({
             lon:60.35118781161213,
             lat:25.07961237060216,
@@ -145,7 +158,7 @@ var poi = {
             status: me._status.KAUPPA,
             description: 'Lidl'
         });
-
+        */
 
     },
     _addMarkers: function(){

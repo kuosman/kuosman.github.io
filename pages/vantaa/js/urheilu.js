@@ -51,6 +51,16 @@ var urheilu = {
 			status: me._status.KUNTOSALI,
 			description: ''
 		});
+
+		me._urheilu.push({
+			lon: 60.357705472,
+			lat: 25.077422393,
+			url:'https://www.salini.fi/',
+			name:'Salini.fi',
+			osoite: 'Tavitie 1, 01450 Vantaa',
+			status: me._status.KUNTOSALI,
+			description: ''
+		});
 	},
 	_addUimarannat: function(){
 		var me = this;

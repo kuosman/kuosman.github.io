@@ -13,7 +13,14 @@ div.popup_junaasemat {
 		}
 	}
 
+	div {
+		&.label, &.service {
+			color: $white;
+		}
+	}
+
 	h3 {
+		color: $white;
 		i {
 			font-size: 32px;
 		}

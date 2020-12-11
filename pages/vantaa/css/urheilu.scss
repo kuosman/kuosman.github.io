@@ -1,7 +1,6 @@
 @import "variables";
 
 div.popup_urheilu {
-	color: $white;
 	width: 300px;
 
 	a, a.leaflet-popup-close-button {
@@ -12,7 +11,15 @@ div.popup_urheilu {
 		}
 	}
 
+	div {
+		&.label, &.status {
+			color: $white;
+		}
+	}
+
 	h3 {
+		color: $white;
+
 		i {
 			font-size: 32px;
 		}
