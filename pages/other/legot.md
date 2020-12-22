@@ -17,6 +17,7 @@ Lista päivitetty 27.11.2020.
 | <img style="max-width:200px;max-height:200px;" alt="Cruz Ramirezin kisasimulaattori" src="../images/legot/10731.jpg">     | 10731       | Cars - Cruz Ramirezin kisasimulaattori     |
 | <img style="max-width:200px;max-height:200px;" alt="Martin romukauppa" src="../images/legot/10733.jpg">                   | 10733       | Cars - Martin romukauppa                   |
 | <img style="max-width:200px;max-height:200px;" alt="Luovaa huvia" src="../images/legot/11005.jpg">                        | 11005       | Classic - Luovaa huvia                     |
+| <img style="max-width:200px;max-height:200px;" alt="Potkurikone" src="../images/legot/31099.jpg">                         | 31099       | Creator - Potkurikone                      |
 | <img style="max-width:200px;max-height:200px;" alt="Kippiauto" src="../images/legot/30348.jpg">                           | 30348       | City - Kippiauto                           |
 | <img style="max-width:200px;max-height:200px;" alt="Vauhdikas takaa-ajo" src="../images/legot/60138.jpg">                 | 60138       | City - Vauhdikas takaa-ajo                 |
 | <img style="max-width:200px;max-height:200px;" alt="Grillipalo" src="../images/legot/60212.jpg">                          | 60212       | City - Grillipalo                          |
