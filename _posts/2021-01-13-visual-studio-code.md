@@ -27,6 +27,10 @@ Adds the ability to go to only method symbols declared in the active document.
 
 Highlight trailing spaces and delete them in a flash!
 
+### Settings Sync
+
+Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist
+
 ## Extensions user settings
 
 ```json
