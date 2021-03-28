@@ -7,7 +7,7 @@ subtitle:
 # Legot
 
 Meiltä tällä hetkellä löytyvät legot.
-Lista päivitetty 10.01.2021.
+Lista päivitetty 28.03.2021.
 
 | Kuva                                                                                                                      | Mallinumero | Nimi                                       |
 |---------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------------------------|
@@ -17,6 +17,7 @@ Lista päivitetty 10.01.2021.
 | <img style="max-width:200px;max-height:200px;" alt="Martin romukauppa" src="../images/legot/10733.jpg">                   | 10733       | Cars - Martin romukauppa                   |
 | <img style="max-width:200px;max-height:200px;" alt="Luovaa huvia" src="../images/legot/11005.jpg">                        | 11005       | Classic - Luovaa huvia                     |
 | <img style="max-width:200px;max-height:200px;" alt="Palikat ja hammaspyörät" src="../images/legot/10712.png">             | 10712       | Classic - Palikat ja hammaspyörät          |
+| <img style="max-width:200px;max-height:200px;" alt="Lentokone" src="../images/legot/31086.jpg">                           | 31086       | Creator - Futuristinen lentokone           |
 | <img style="max-width:200px;max-height:200px;" alt="Potkurikone" src="../images/legot/31099.jpg">                         | 31099       | Creator - Potkurikone                      |
 | <img style="max-width:200px;max-height:200px;" alt="Kippiauto" src="../images/legot/30348.jpg">                           | 30348       | City - Kippiauto                           |
 | <img style="max-width:200px;max-height:200px;" alt="Vauhdikas takaa-ajo" src="../images/legot/60138.jpg">                 | 60138       | City - Vauhdikas takaa-ajo                 |
@@ -25,4 +26,4 @@ Lista päivitetty 10.01.2021.
 | <img style="max-width:200px;max-height:200px;" alt="Monsteriauto" src="../images/legot/60251.jpg">                        | 60251       | City - Monsteriauto                        |
 | <img style="max-width:200px;max-height:200px;" alt="Safarimaasturi" src="../images/legot/60267.jpg">                      | 60267       | City - Safarimaasturi                      |
 | <img style="max-width:200px;max-height:200px;" alt="Kipittäjä" src="../images/legot/70908.jpg">                           | 70908       | Batman - Kipittäjä                         |
-| <img style="max-width:200px;max-height:200px;" alt="Chevrolet Corvette ZR1" src="../images/legot/42093.jpg">                           | 42093       | Technic - Chevrolet Corvette ZR1           |
+| <img style="max-width:200px;max-height:200px;" alt="Chevrolet Corvette ZR1" src="../images/legot/42093.jpg">              | 42093       | Technic - Chevrolet Corvette ZR1           |
