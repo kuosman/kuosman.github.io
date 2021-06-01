@@ -24,6 +24,12 @@ and then install packages with command: `choco install <pkg>`
 
 `choco upgrade <pkg||all>`
 
+## List outdated
+
+List outdated packages.
+
+`choco outdated`
+
 ## List
 
 List only installed packages and their id's.
