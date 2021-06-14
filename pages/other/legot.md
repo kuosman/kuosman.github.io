@@ -26,5 +26,5 @@ Lista päivitetty 14.06.2021.
 | <img style="max-width:200px;max-height:200px;" alt="Palikat ja hammaspyörät" src="../images/legot/10712.png">             | 10712       | Classic - Palikat ja hammaspyörät          |
 | <img style="max-width:200px;max-height:200px;" alt="Lentokone" src="../images/legot/31086.jpg">                           | 31086       | Creator - Futuristinen lentokone           |
 | <img style="max-width:200px;max-height:200px;" alt="Potkurikone" src="../images/legot/31099.jpg">                         | 31099       | Creator - Potkurikone                      |
-| <img style="max-width:200px;max-height:200px;" alt="Chevrolet Corvette ZR1" src="../images/legot/42093.jpg">              | 42093       | Technic - Chevrolet Corvette ZR1           |
 | <img style="max-width:200px;max-height:200px;" alt="Ninja-auto X1" src="../images/legot/71737.jpg">                       | 71737       | Ninjago - Ninja-auto X-1                   |
+| <img style="max-width:200px;max-height:200px;" alt="Chevrolet Corvette ZR1" src="../images/legot/42093.jpg">              | 42093       | Technic - Chevrolet Corvette ZR1           |
