@@ -34,7 +34,6 @@ navbar-links:
     - Leaflet: "../pages/leaflet"
     - SASS example: "../pages/sass-example"
   Other:
-    - Photography: "../pages/other/Kuvauspaikkoja"
     - Lego's: "../pages/other/legot"
   Legacy:
     - Android: "../pages/legacy/android"
