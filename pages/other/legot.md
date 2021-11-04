@@ -7,7 +7,7 @@ subtitle:
 # Legot
 
 Meiltä tällä hetkellä löytyvät legot.
-Lista päivitetty 16.08.2021.
+Lista päivitetty 04.11.2021.
 
 | Kuva                                                                                                                                                      | Mallinumero | Nimi                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------|
@@ -31,4 +31,6 @@ Lista päivitetty 16.08.2021.
 | <img style="max-width:200px;max-height:200px;" alt="Ninja-auto X1" src="../images/legot/71737.jpg">                                                       | 71737       | Ninjago - Ninja-auto X-1                                                                |
 | <img style="max-width:200px;max-height:200px;" alt="Formula E Panasonic Jaguar Racing GEN2 car & Jaguar I-PACE eTROPHY" src="../images/legot/76898.jpg">  | 76898       | Speed Champions - Formula E Panasonic Jaguar Racing GEN2 car & Jaguar I-PACE eTROPHY    |
 | <img style="max-width:200px;max-height:200px;" alt="Chevrolet Corvette ZR1" src="../images/legot/42093.jpg">                                              | 42093       | Technic - Chevrolet Corvette ZR1                                                        |
+| <img style="max-width:200px;max-height:200px;" alt="Dragsteri" src="../images/legot/42103.jpg">                                                           | 42103       | Technic - Dragsteri                                                                     |
+| <img style="max-width:200px;max-height:200px;" alt="Monster Jam Grave Digger" src="../images/legot/42118.jpg">                                            | 42118       | Technic - Monster Jam Grave Digger                                                      |
 | <img style="max-width:200px;max-height:200px;" alt="Pelastusilmatyynyalus" src="../images/legot/42120.jpg">                                               | 42120       | Technic - Pelastusilmatyynyalaus                                                        |
