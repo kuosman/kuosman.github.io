@@ -7,7 +7,7 @@ subtitle:
 # Legot
 
 Meiltä tällä hetkellä löytyvät legot.
-Lista päivitetty 26.12.2021.
+Lista päivitetty 01.01.2022.
 
 | Kuva                                                                                                                                                      | Mallinumero | Nimi                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------|
@@ -20,6 +20,7 @@ Lista päivitetty 26.12.2021.
 | <img style="max-width:200px;max-height:200px;" alt="Kippiauto" src="../images/legot/30348.jpg">                                                           | 30348       | City - Kippiauto                                                                        |
 | <img style="max-width:200px;max-height:200px;" alt="Lumikissa" src="../images/legot/60222.jpg">                                                           | 60222       | City - Lumikissa                                                                        |
 | <img style="max-width:200px;max-height:200px;" alt="Monsteriauto" src="../images/legot/60251.jpg">                                                        | 60251       | City - Monsteriauto                                                                     |
+| <img style="max-width:200px;max-height:200px;" alt="Nosturiauto" src="../images/legot/60324.png">                                                         | 60324       | City - Nosturiauto                                                                      |
 | <img style="max-width:200px;max-height:200px;" alt="Näytössuihkarin kuljetusauto" src="../images/legot/60289.jpg">                                        | 60289       | City - Näytössuihkarin kuljetusauto                                                     |
 | <img style="max-width:200px;max-height:200px;" alt="Safarimaasturi" src="../images/legot/60267.jpg">                                                      | 60267       | City - Safarimaasturi                                                                   |
 | <img style="max-width:200px;max-height:200px;" alt="Vauhdikas takaa-ajo" src="../images/legot/60138.jpg">                                                 | 60138       | City - Vauhdikas takaa-ajo                                                              |
