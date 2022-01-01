@@ -29,6 +29,15 @@ sudo systemctl stop|start|status ruuvicollector.service
 sudo service grafana-server stop|start|status
 ```
 
+## No data getted
+
+Check and run following commands if no data seeing on your Grafana settings.
+
+```
+sudo setcap 'cap_net_raw,cap_net_admin+eip' `which hcitool`
+sudo setcap 'cap_net_raw,cap_net_admin+eip' `which hcidump`
+```
+
 ## RuuviCollector properties file
 
 ```
