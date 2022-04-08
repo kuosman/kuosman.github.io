@@ -9,6 +9,15 @@ tags: [postgresql, json]
 
 # PostgreSQL JSON updates
 
+## Select wanted key and show it's value
+
+```sql
+-- Select <JSON_KEY1> value from <TABLE_NAME>.
+SELECT <JSONOBJECT_COLUMN>::json->'<JSON_KEY1>' FROM <TABLE_NAME>;
+-- Select <JSON_KEY1> JSONObject <JSON_KEY2> value from <TABLE_NAME>.
+SELECT <JSONOBJECT_COLUMN>::json->'<JSON_KEY1>'->'<JSON_KEY2>' FROM <TABLE_NAME>;
+```
+
 ## Add key and value to JSONObject
 
 ```sql
