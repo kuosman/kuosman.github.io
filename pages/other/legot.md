@@ -7,7 +7,7 @@ subtitle:
 # Legot
 
 Meiltä tällä hetkellä löytyvät legot.
-Lista päivitetty 01.01.2022.
+Lista päivitetty 11.07.2022.
 
 | Kuva                                                                                                                                                      | Mallinumero | Nimi                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------|
@@ -38,4 +38,5 @@ Lista päivitetty 01.01.2022.
 | <img style="max-width:200px;max-height:200px;" alt="Pienkuormaaja" src="../images/legot/42116.jpg">                                                       | 42116       | Technic - Pienkuormaaja                                                                 |
 | <img style="max-width:200px;max-height:200px;" alt="Monster Jam Grave Digger" src="../images/legot/42118.jpg">                                            | 42118       | Technic - Monster Jam Grave Digger                                                      |
 | <img style="max-width:200px;max-height:200px;" alt="Pelastusilmatyynyalus" src="../images/legot/42120.jpg">                                               | 42120       | Technic - Pelastusilmatyynyalaus                                                        |
+| <img style="max-width:200px;max-height:200px;" alt="Pelastusilmatyynyalus" src="../images/legot/42121.jpg">                                               | 42121       | Technic - Raskas kaivinkone                                                             |
 | <img style="max-width:200px;max-height:200px;" alt="Jeep Wrangler" src="../images/legot/42122.jpg">                                                       | 42122       | Technic - Jeep Wrangler                                                                 |
