@@ -19,11 +19,13 @@ Set HOME path variable to point your wanted home folder.
 
 ### Global settings
 
-```
+```bash
 git config --global user.name "<First name> <Last name>"
 git config --global user.email "<Email address>"
 git config --global core.autocrlf true
 git config --global core.filemode false
+# Ignore case
+git config core.ignorecase false
 ```
 
 ## Commands
