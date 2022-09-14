@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Advanced React Workshop
+title: Advanced React Workshop (React 18)
 subtitle: React Finland 2022 at Paasitorni, Helsinki
 gh-repo: kuosman/kuosman.github.io
 gh-badge: [follow]
 tags: [react, workshop]
 ---
 
-# Advanced React Workshop
+# Advanced React Workshop (React 18)
 
 Workshop organizer: Nik Graf -> https://www.nikgraf.com/
 
@@ -62,3 +62,17 @@ That said it might get expensive with more complex values e.g. large nested obje
 
 useTransition() is a hook for transition. It returns the transition state and a function to start the transition.
 
+## useState
+
+React 18 introduced "Automatic Batching" of State Updates.
+
+Pro: more efficient state updates
+Con: some existing probably won't but might break
+
+## useSyncExternalStore
+
+useSyncExternalStore is a hook recommended for reading and subscribing from external data sources in a way that’s compatible with concurrent rendering features like selective hydration and time slicing.
+
+## useInsertionEffect
+
+useInsertionEffect is introduced in React 18. It has the same signature as useEffect, but it fires synchronously before all DOM mutations. i.e. it is fired before useLayoutEffect. It is used to inject styles into the DOM before reading layout.
