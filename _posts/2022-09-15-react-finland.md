@@ -17,6 +17,8 @@ tags: [react, workshop]
 
 Live stream: https://www.youtube.com/watch?v=zE8PDM_7xoQ
 
+![React Finland, day 1](./reactfinland_images/20220915_084023.jpg?raw=true "React Finland, day 1")
+
 ## Opening
 
 ### What do engineers, kintsugi and stained glass, and lotuses and clocks have in common?
