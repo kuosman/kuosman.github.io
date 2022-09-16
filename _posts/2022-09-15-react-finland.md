@@ -25,13 +25,13 @@ Live stream: https://www.youtube.com/watch?v=zE8PDM_7xoQ
 
 Jen Luker @knitcodemonkey
 
-https://jenluker.com/#/
+[https://jenluker.com/#/](https://jenluker.com/#/)
 
 ### Bringing the New React Native Architecture to the OSS community
 
 Nicola Corti
 
-https://ncorti.com/
+[https://ncorti.com/](https://ncorti.com/)
 
 Android @ React Native
 
@@ -39,7 +39,7 @@ Android @ React Native
 
 Ryan Carniato
 
-Author of https://www.solidjs.com/
+Author of [https://www.solidjs.com/](https://www.solidjs.com/)
 
 #### createSignal
 
@@ -63,8 +63,8 @@ Author of https://www.solidjs.com/
 ```
 
 Google results why use solidjs:
-- https://dev.to/devsmitra/solidjs-and-reactjs-difference-and-comparison-1p3e
-- https://www.webtips.dev/solidjs-vs-react
+- [https://dev.to/devsmitra/solidjs-and-reactjs-difference-and-comparison-1p3e](https://dev.to/devsmitra/solidjs-and-reactjs-difference-and-comparison-1p3e)
+- [https://www.webtips.dev/solidjs-vs-react](https://www.webtips.dev/solidjs-vs-react)
 
 ## Techniques
 
@@ -72,23 +72,23 @@ Google results why use solidjs:
 
 Esa-Matti Suuronen
 
-https://esamatti.fi/
+[https://esamatti.fi/](https://esamatti.fi/)
 
 #### Zod
 
-Form library: https://zod.dev/
+Form library: [https://zod.dev/](https://zod.dev/)
 
 Zod is a TypeScript-first schema declaration and validation library.
 
 #### Zorm
 
-https://github.com/esamattis/react-zorm
+[https://github.com/esamattis/react-zorm](https://github.com/esamattis/react-zorm)
 
 ### Good Code
 
 Kadi Kraman
 
-https://github.com/kadikraman
+[https://github.com/kadikraman](https://github.com/kadikraman)
 
 
 `Writing code`
@@ -113,7 +113,7 @@ Always explain any unusual decisions in code comments.
 
 Kenneth Sutherland
 
-https://www.kennethsutherland.com/
+[https://www.kennethsutherland.com/](https://www.kennethsutherland.com/)
 
 Firts weeks - everyone had headphones on
 Bugs - 1000's
@@ -127,19 +127,19 @@ Whole team left to go to the states
 
 Nik Graf
 
-http://www.nikgraf.com/
+[http://www.nikgraf.com/](http://www.nikgraf.com/)
 
 ### The two types of state management
 
 David Khourshid
 
-https://github.com/davidkpiano
+[https://github.com/davidkpiano](https://github.com/davidkpiano)
 
 #### Redux
 
 #### Zustand
 
-https://github.com/pmndrs/zustand
+[https://github.com/pmndrs/zustand](https://github.com/pmndrs/zustand)
 
 #### Multistore
 
@@ -153,23 +153,22 @@ https://github.com/pmndrs/zustand
 
 Farzad Yousefzadeh
 
-https://farzadyz.com/
+- [https://farzadyz.com/](https://farzadyz.com/)
 
-https://stately.ai
+- [https://stately.ai](https://stately.ai)
 
 ### Mob programming
 
 Woody Zuill
 
-https://woodyzuill.com/
+[https://woodyzuill.com/](https://woodyzuill.com/)
 
 
 David Corbacho Roman
 
-https://github.com/dcorb
+[https://github.com/dcorb](https://github.com/dcorb)
 
 Laura Ojala
 
-https://lauraojala.fi/
-
-https://github.com/laojala
+- [https://lauraojala.fi/](https://lauraojala.fi/)
+- [https://github.com/laojala](https://github.com/laojala)
