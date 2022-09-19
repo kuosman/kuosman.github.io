@@ -9,7 +9,7 @@ tags: [react, workshop]
 
 # Advanced React Workshop (React 18)
 
-Workshop organizer: Nik Graf -> https://www.nikgraf.com/
+Workshop organizer: Nik Graf -> [https://www.nikgraf.com/](https://www.nikgraf.com/)
 
 ## identifierPrefix
 
