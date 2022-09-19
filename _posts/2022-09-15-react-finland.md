@@ -129,6 +129,8 @@ Nik Graf
 
 [http://www.nikgraf.com/](http://www.nikgraf.com/)
 
+`React reduce stress`: [https://github.com/nikgraf/react-reduce-stress](https://github.com/nikgraf/react-reduce-stress)
+
 ### The two types of state management
 
 David Khourshid
