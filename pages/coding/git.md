@@ -4,13 +4,6 @@ title: Git
 subtitle:
 ---
 
-## Usefull programs for git
-
-* [Cmder](https://cmder.net)
-* [Cygwin](https://www.cygwin.com):
-  * Needs install packages, for example: git*, ssh (openSSH), util-linux, curl, gitk, wget
-* [Sourcetree](https://www.sourcetreeapp.com)
-
 ## Git settings
 
 ### Home folder
@@ -27,6 +20,13 @@ git config --global core.filemode false
 # Ignore case
 git config core.ignorecase false
 ```
+
+## Disable GIT credentials on Windows
+
+- Open the command prompt as an admin.
+- Enter the following command: `git config --edit --system`
+- Remove the line (if not by default press the insert button to start editing): `helper = manager`
+- Save the file by pressing Escape then `:wq`.
 
 ## Commands
 
