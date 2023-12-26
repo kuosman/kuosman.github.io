@@ -1,2 +1,17 @@
-body{color:#FFFFFF;font-family:'Exo 2',sans-serif;font-size:16px}#map div.leaflet-control-container div.leaflet-control a{opacity:0.8}#map div.awesome-marker{opacity:0.8}#map div.leaflet-popup{opacity:0.8 !important}
-/*# sourceMappingURL=styles.css.map */
+/* Normal colors */
+/* Dark colors */
+body {
+  color: #FFFFFF;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+}
+
+#map div.leaflet-control-container div.leaflet-control a {
+  opacity: 0.8;
+}
+#map div.awesome-marker {
+  opacity: 0.8;
+}
+#map div.leaflet-popup {
+  opacity: 0.8 !important;
+}/*# sourceMappingURL=styles.css.map */

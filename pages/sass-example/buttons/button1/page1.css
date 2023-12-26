@@ -2,13 +2,10 @@
   padding: 10px;
   background-color: #FF6A00;
   color: #FFFFFF;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid #ff8833;
-  cursor: pointer; }
-  .dim__button:hover {
-    background-color: #cc5500; }
-
-/*# sourceMappingURL=page1.css.map */
+  cursor: pointer;
+}
+.dim__button:hover {
+  background-color: #cc5500;
+}/*# sourceMappingURL=page1.css.map */
