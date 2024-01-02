@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MobaXterm export
+title: MobaXterm export/import
 subtitle:
 gh-repo: kuosman/kuosman.github.io
 gh-badge: [follow]
