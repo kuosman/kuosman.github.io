@@ -4,45 +4,35 @@ div.popup_poi {
   color: #ffffff;
   width: 300px;
 }
-
 div.popup_poi a, div.popup_poi a.leaflet-popup-close-button {
   color: #ffffff;
 }
-
 div.popup_poi a:hover, div.popup_poi a.leaflet-popup-close-button:hover {
   color: #ffffff;
 }
-
 div.popup_poi div.label, div.popup_poi div.text {
   color: #ffffff;
 }
-
 div.popup_poi h3 {
   color: #ffffff;
 }
-
 div.popup_poi h3 i {
   font-size: 32px;
 }
-
 div.popup_poi h3 span.name {
   margin-left: 6px;
   position: relative;
   bottom: 4px;
 }
-
 div.popup_poi div.label {
   float: left;
   width: 70px;
   font-weight: bold;
 }
-
 div.popup_poi div.text {
   float: left;
   width: 160px;
 }
-
 div.popup_poi div.clear {
   clear: both;
-}
-/*# sourceMappingURL=poi.css.map */
+}/*# sourceMappingURL=poi.css.map */
