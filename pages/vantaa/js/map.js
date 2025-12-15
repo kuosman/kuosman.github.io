@@ -25,8 +25,8 @@ l.map.init = function(){
 			showLayerSelection: true
 		},*/
 		{
-			obj: new L.tileLayer.grayscale('http://tiles.kartat.kapsi.fi/taustakartta/{z}/{x}/{y}.jpg', {
-				attribution: '<a href="http://kartat.kapsi.fi" target="_blank">kartat.kapsi.fi</a> | MML/2018',
+			obj: new L.tileLayer.grayscale('http://tiles.kartat.kapsi.fi/taustakartta_3067/{z}/{x}/{y}.jpg', {
+				attribution: '<a href="http://kartat.kapsi.fi" target="_blank">kartat.kapsi.fi</a> | MML/2025',
 				maxZoom: 18,
 				subdomains: ['tile1', 'tile2']
 			}),
@@ -35,8 +35,8 @@ l.map.init = function(){
 			showLayerSelection: true
 		},
 		{
-			obj: new L.tileLayer.wms('https://extranet.liikennevirasto.fi/inspirepalvelu/avoin/wms?', {
-				layers: 'rataverkko',
+			obj: new L.tileLayer.wms('https://avoinapi.vaylapilvi.fi/vaylatiedot/ows?', {
+				layers: 'ratatiedot:locationtracks_simplified',
 				format: 'image/png',
     			transparent: true,
     			opacity:0.7
