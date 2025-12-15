@@ -4,15 +4,18 @@ jQuery(document).ready(function(){
 });
 
 l.map.init = function(){
-	var crs3067 = new L.Proj.CRS('EPSG:3067',
-      proj4.defs('EPSG:3067'),
-      {
+
+	var resolutions = [
+        8192, 4096, 2048, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1, 0.5,
+    ];
+
+    var crs3067 = new L.Proj.CRS('EPSG:3067', proj4.defs('EPSG:3067'), {
         // origin ja resolutions täytyy säätää sopimaan käyttämällesi tile- tai karttatasolle:
         origin: [-548576.0, 8388608.0],
-        resolutions: [8192,4096,2048,1024,512,256,128,64,32,16,8,4,2,1,0.5],
-		bounds: L.bounds([-548576.0, -548576.0], [1200000.0, 8388608.0])
-      });
-	
+        resolutions: resolutions,
+        bounds: L.bounds([-548576.0, -548576.0], [1200000.0, 8388608.0]),
+    });
+
 	l.map.map = L.map('map', {crs: crs3067});
 
 	var layers = [
@@ -70,11 +73,18 @@ l.map.init = function(){
 		}*/
 	];
 
-	var minimapLayer = new L.tileLayer.grayscale('http://tiles.kartat.kapsi.fi/taustakartta_3067/{z}/{x}/{y}.jpg', {
-		attribution: '<a href="http://kartat.kapsi.fi" target="_blank">kartat.kapsi.fi</a> | MML/2025',
-		maxZoom: 18,
-		subdomains: ['tile1', 'tile2']
-	});
+	var minimapLayer = new L.tileLayer.grayscale(
+        'http://tiles.kartat.kapsi.fi/taustakartta_3067/{z}/{x}/{y}.jpg',
+        {
+            attribution:
+                '<a href="http://kartat.kapsi.fi" target="_blank">kartat.kapsi.fi</a> | MML/2025',
+            maxZoom: resolutions.length - 1,
+            subdomains: ['tile1', 'tile2'],
+            noWrap: true,
+            tileSize: 256,
+            tms: false,
+        }
+    );
 
 	var layerControl = {};
 	for(var i=0;i<layers.length;i++){
