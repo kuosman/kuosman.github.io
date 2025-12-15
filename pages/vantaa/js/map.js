@@ -3,7 +3,15 @@ jQuery(document).ready(function(){
 });
 
 l.map.init = function(){
-	l.map.map = L.map('map');
+	var crs3067 = new L.Proj.CRS('EPSG:3067',
+      proj4.defs('EPSG:3067'),
+      {
+        // origin ja resolutions täytyy säätää sopimaan käyttämällesi tile- tai karttatasolle:
+        origin: [0, 9000000],
+        resolutions: [8192,4096,2048,1024,512,256,128,64,32,16,8,4,2,1,0.5]
+      });
+	
+	l.map.map = L.map('map', {crs: crs3067});
 
 	var layers = [
 /*		{
@@ -57,8 +65,8 @@ l.map.init = function(){
 		}*/
 	];
 
-	var minimapLayer = new L.tileLayer.grayscale('http://tiles.kartat.kapsi.fi/taustakartta/{z}/{x}/{y}.jpg', {
-		attribution: '<a href="http://kartat.kapsi.fi" target="_blank">kartat.kapsi.fi</a> | MML/2018',
+	var minimapLayer = new L.tileLayer.grayscale('http://tiles.kartat.kapsi.fi/taustakartta_3067/{z}/{x}/{y}.jpg', {
+		attribution: '<a href="http://kartat.kapsi.fi" target="_blank">kartat.kapsi.fi</a> | MML/2025',
 		maxZoom: 18,
 		subdomains: ['tile1', 'tile2']
 	});
